@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BigCommerce TakeHome Assignment">
+	<test name="ApiTest">
+		<parameter name="brand_id" value="/38" />
+		<parameter name="brandName" value="Avengers" />
+		<parameter name="brandPageTitle" value="Marvel Comics Brand" />
+		<parameter name="updateBrandName" value="Batman" />
+		<parameter name="updateBrandPageTitle" value="DC Comics Brand" />
+		<classes>
+			<class name="com.bigcom.test.api.TestApi" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
